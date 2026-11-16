@@ -1,0 +1,16 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+
+# stray empty clone of the repo (safe to delete)
+/litale/
